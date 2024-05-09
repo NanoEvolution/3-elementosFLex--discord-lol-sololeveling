@@ -131,13 +131,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 10px;
-  height: 40rem;
-}
-
-.container_slevel img {
-  width: 30%;
-  position: absolute;
-  top: 20%;
+  height: 43rem;
 }
 
 .container_slevel nav {
@@ -173,6 +167,7 @@ body {
   max-width: 10%;
   margin-right: 15%;
   margin-left: 12%;
+  cursor: pointer;
 }
 
 .navbar-logo {
@@ -319,7 +314,6 @@ body {
   width: 2rem;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
-
 }
 
 .button-download2 {
@@ -369,4 +363,124 @@ body {
 .button-download2:hover {
   background: #121111bc;
   color: #ffffff;
+}
+
+#nav-slevel {
+  background-color: #000000;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 3.2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.nav-content-slevel {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.container_slevel ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container_slevel ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.container_slevel ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Quantico", "Noto Sans", "Malgun Gothic", "Apple SD Gothic Neo",
+    sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.navbar-logo_slevel {
+  position: absolute;
+  left: 5rem;
+  width: 4rem;
+  cursor: pointer;
+}
+
+.logo_sl {
+  width: 30%;
+  margin-top: 10%;
+}
+
+.btn_main_play[data-v-72c8c86a] {
+  position: relative;
+  margin-top: 13px;
+  font-size: 0;
+  width: 76px;
+  height: 76px;
+  background: url(https://sgimage.netmarble.com/mobile/game/sololv/brand/v1/img/47c62a408649.png)
+    no-repeat 0 0;
+  z-index: 10;
+  margin-left: 12%;
+  border: transparent;
+  cursor: pointer;
+}
+
+.sns-btn[data-v-72c8c86a] {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  margin-left: 4rem;
+  z-index: 2;
+}
+
+.download-sl {
+  text-shadow: 0 0 1px #fff, 0 0 15px #6137ff, 0 0 20px #6137ff,
+    0 0 30px #6137ff;
+  font-weight: 500 !important;
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  font-size: 3rem;
+  font-family: "Quantico", "Noto Sans", "Malgun Gothic", "Apple SD Gothic Neo",
+    sans-serif;
+}
+
+.share-sl {
+  border: transparent;
+  cursor: pointer;
+  z-index: 10;
+  overflow: hidden;
+  width: 63px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  display: inline-block;
+  text-indent: -5000px;
+  position: absolute;
+  top: 10px;
+  right: 30px;
 }
