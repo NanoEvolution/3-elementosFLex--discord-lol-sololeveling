@@ -92,6 +92,7 @@ body {
   position: relative;
 }
 
+/* Lol */
 .container_lol {
   width: calc(100% - 40px);
   padding: 20px;
@@ -117,6 +118,8 @@ body {
 .container_lol nav {
   text-align: center;
 }
+
+/* END Lol */
 
 .container_slevel {
   width: calc(100% - 40px);
@@ -370,17 +373,12 @@ body {
   top: 0;
   margin: 0;
   padding: 0;
-  position: absolute;
+  position: relative;
+  display: flex;
   width: 100%;
   height: 3.2rem;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.nav-content-slevel {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  
+
 }
 
 .background {
@@ -389,18 +387,19 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  text-align: center;
-  align-items: center;
+
 }
 
 .container_slevel ul {
   list-style-type: none;
   padding: 0;
+  
 }
 
 .container_slevel ul li {
   display: inline;
   margin-right: 15px;
+  
 }
 
 .container_slevel ul li a {
@@ -413,10 +412,12 @@ body {
 }
 
 .navbar-logo_slevel {
-  position: absolute;
-  left: 5rem;
+  position: relative;
+  display: flex;
   width: 4rem;
   cursor: pointer;
+  left: 2rem;
+  margin-right: 5rem;
 }
 
 .logo_sl {
