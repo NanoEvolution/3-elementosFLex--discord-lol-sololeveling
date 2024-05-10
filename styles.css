@@ -118,8 +118,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  width: 70%;
-  height: 70%;
+  width: 120%;
+  height: 80%;
 }
 
 .container_lol nav {
@@ -135,7 +135,7 @@ body {
   padding: 0;
 }
 
-.container_lol nav ul li a{
+.container_lol nav ul li {
   list-style-type: none;
   padding: 7.5px 16px;
   color: #f9f9f9;
@@ -147,10 +147,11 @@ body {
   text-transform: uppercase;
   transition: color 1s cubic-bezier(0.06, 0.81, 0, 0.98), border-color .5s cubic-bezier(0.06, 0.81, 0, 0.98);
   text-decoration: none;
-  
 }
+
 .container_lol nav ul li a {
   font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .container_lol nav ul li a:hover {
@@ -211,6 +212,21 @@ body {
   transform: translateX(-50%);
   z-index: 3;
 }
+
+.nav-lol-log {
+  background: rgba(128, 128, 128, 0.3);
+  border-radius: 6.4px;
+  padding: 7.5px 16px;
+  margin-left: 12rem;
+}
+
+.nav-lol-play {
+  background: rgb(0, 104, 130);
+  border-radius: 6.4px;
+  padding: 7.5px 16px;
+}
+
+
 
 
 /* END Lol */
